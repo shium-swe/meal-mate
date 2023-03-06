@@ -1,0 +1,33 @@
+{
+  "name": "meal-mate",
+  "version": "1.0.0",
+  "description": "A meal tracking web app for storing your favorite recipes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devstart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shium-swe/meal-mate.git"
+  },
+  "author": "shium",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shium-swe/meal-mate/issues"
+  },
+  "homepage": "https://github.com/shium-swe/meal-mate#readme",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "pg": "^8.9.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
