@@ -1,2 +1,3 @@
-/client
-/server/config/
+client
+server/config/
+.env
